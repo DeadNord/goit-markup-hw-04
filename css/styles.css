@@ -159,6 +159,8 @@ p {
 
   color: var(--third-text-color);
 
+  max-width: 600px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
