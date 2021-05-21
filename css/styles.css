@@ -50,6 +50,7 @@ p {
   --main-link-color: rgb(75, 75, 75, 0.6);
   --footer-link-color: rgb(255, 255, 255, 0.6);
   --work-back-color: #eeeeee;
+  --overlay-back-color: rgba(47, 48, 58, 0.4);
 }
 
 /* Style Classes */
@@ -143,6 +144,8 @@ p {
 }
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
   letter-spacing: 0.06em;
   text-align: center;
 
@@ -150,6 +153,16 @@ p {
 
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay-hero {
+  background-image: linear-gradient(to right, var(--overlay-back-color), var(--overlay-back-color)),
+    url(../images/back-hero.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slogan {
