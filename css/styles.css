@@ -156,10 +156,16 @@ p {
   height: 44px;
 }
 
+.media-footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .media-footer-link {
   display: inline-block;
   width: 44px;
   height: 44px;
+
+  padding: 12px;
 
   background-color: var(--footer-link-back);
   border-radius: 50%;
@@ -167,29 +173,17 @@ p {
   background-repeat: no-repeat;
 }
 
-.media-footer-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.media-footer-inst {
-  background-image: url(../images/inst.svg);
-}
-
-.media-footer-twit {
-  background-image: url(../images/twit.svg);
-}
-
-.media-footer-fb {
-  background-image: url(../images/fb.svg);
-}
-
-.media-footer-linkedin {
-  background-image: url(../images/linkdin.svg);
-}
-
 .media-footer-link:hover,
 .media-footer-link:focus {
   background-color: var(--main-theme-color);
+}
+
+.media-footer-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  fill: var(--third-text-color);
 }
 
 .item-client:not(:last-child) {
