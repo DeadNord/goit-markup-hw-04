@@ -151,7 +151,7 @@ p {
   color: var(--third-text-color);
 }
 
-/* .media-footer-item {
+.media-footer-item {
   width: 44px;
   height: 44px;
 }
@@ -184,7 +184,7 @@ p {
   cursor: pointer;
 
   fill: var(--third-text-color);
-} */
+}
 
 .item-client:not(:last-child) {
   margin-right: 30px;
