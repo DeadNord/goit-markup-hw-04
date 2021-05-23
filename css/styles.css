@@ -172,19 +172,19 @@ p {
 }
 
 .media-footer-inst {
-  background-image: url(/images/inst.svg);
+  background-image: url(../images/inst.svg);
 }
 
 .media-footer-twit {
-  background-image: url(/images/twit.svg);
+  background-image: url(../images/twit.svg);
 }
 
 .media-footer-fb {
-  background-image: url(/images/fb.svg);
+  background-image: url(../images/fb.svg);
 }
 
 .media-footer-linkedin {
-  background-image: url(/images/linkdin.svg);
+  background-image: url(../images/linkdin.svg);
 }
 
 .media-footer-link:hover,

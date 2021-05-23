@@ -1,3 +1,3 @@
 # goit-markup-hw-04
 
-v6-rc
+v7-rc
