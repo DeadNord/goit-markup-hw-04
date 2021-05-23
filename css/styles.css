@@ -109,10 +109,10 @@ p {
   fill: var(--secondary-text-color);
 }
 
-.link-mail:hover,
-.link-mail:focus,
-.link-phone:hover,
-.link-phone:focus {
+.link-address:hover .link-mail,
+.link-address:focus .link-mail,
+.link-address:hover .link-phone,
+.link-address:focus .link-phone {
   fill: var(--main-theme-color);
 }
 
@@ -192,8 +192,11 @@ p {
   background-color: var(--main-theme-color);
 }
 
-.item-client {
-  display: inline-block;
+.item-client:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-client {
   width: 170px;
   height: 92px;
   cursor: pointer;
@@ -201,12 +204,7 @@ p {
   border: 1px solid var(--client-border);
   border-radius: 4px;
 
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.item-client:not(:last-child) {
-  margin-right: 30px;
+  padding: 16px 32px;
 }
 
 .item-client-icon {
@@ -214,17 +212,15 @@ p {
   height: 60px;
 
   fill: var(--client-border);
-
-  margin: 16px 32px;
 }
 
-.item-client:hover,
-.item-client:focus {
+.link-client:hover,
+.link-client:focus {
   border-color: var(--main-theme-color);
 }
 
-.item-client-icon:hover,
-.item-client-icon:focus {
+.link-client:hover .item-client-icon,
+.link-client:focus .item-client-icon {
   fill: var(--main-theme-color);
 }
 
@@ -455,6 +451,8 @@ p {
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
+
+  padding: 12px;
 }
 
 .decs-contact-icon {
@@ -463,8 +461,6 @@ p {
   cursor: pointer;
 
   fill: var(--client-border);
-
-  margin: 12px;
 }
 
 .team-contact:hover,
@@ -472,12 +468,12 @@ p {
   background-color: var(--main-theme-color);
 }
 
-.decs-contact-icon:hover,
-.decs-contact-icon:focus {
+.team-contact:hover .decs-contact-icon,
+.team-contact:focus .decs-contact-icon {
   fill: var(--third-text-color);
 }
 
-.team-contact:not(:last-child) {
+.item-team:not(:last-child) {
   margin-right: 10px;
 }
 
