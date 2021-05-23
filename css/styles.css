@@ -123,19 +123,19 @@ p {
 }
 
 .item-detail::before {
-  background-image: url(/images/Group1.jpg);
+  background-image: url(../images/Group1.jpg);
 }
 
 .item-time::before {
-  background-image: url(/images/Group2.jpg);
+  background-image: url(../images/Group2.jpg);
 }
 
 .item-plan::before {
-  background-image: url(/images/Group3.jpg);
+  background-image: url(../images/Group3.jpg);
 }
 
 .item-tech::before {
-  background-image: url(/images/Group4.jpg);
+  background-image: url(../images/Group4.jpg);
 }
 
 .media-footer {
