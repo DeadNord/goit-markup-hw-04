@@ -53,6 +53,7 @@ p {
   --overlay-back-color: rgba(47, 48, 58, 0.4);
   --footer-link-back: rgba(255, 255, 255, 0.1);
   --client-border: #afb1b8;
+  --hero-button-color: #188ce8;
 }
 
 /* Style Classes */
@@ -138,6 +139,17 @@ p {
   background-image: url(../images/Group4.jpg);
 }
 
+.icon-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container.list {
+  display: flex;
+  align-items: baseline;
+}
+
 .media-footer {
   margin-left: 70px;
 }
@@ -161,11 +173,8 @@ p {
 }
 
 .media-footer-link {
-  display: inline-block;
   width: 44px;
   height: 44px;
-
-  padding: 12px;
 
   background-color: var(--footer-link-back);
   border-radius: 50%;
@@ -197,8 +206,6 @@ p {
 
   border: 1px solid var(--client-border);
   border-radius: 4px;
-
-  padding: 16px 32px;
 }
 
 .item-client-icon {
@@ -275,9 +282,6 @@ p {
 }
 
 .link-address {
-  display: flex;
-  align-items: center;
-
   color: var(--secondary-text-color);
 }
 
@@ -329,6 +333,11 @@ p {
   padding: 10px, 32px;
   border-radius: 4px;
   border-color: transparent;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hero-button-color);
 }
 
 .title {
@@ -441,15 +450,12 @@ p {
 }
 
 .team-contact {
-  display: inline-block;
   width: 44px;
   height: 44px;
 
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
-
-  padding: 12px;
 }
 
 .decs-contact-icon {
@@ -547,7 +553,8 @@ p {
   cursor: pointer;
 }
 
-.work-item:hover {
+.work-link:hover,
+.work-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
