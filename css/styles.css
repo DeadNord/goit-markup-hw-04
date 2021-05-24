@@ -275,6 +275,9 @@ p {
 }
 
 .link-address {
+  display: flex;
+  align-items: center;
+
   color: var(--secondary-text-color);
 }
 
