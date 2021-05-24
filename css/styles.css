@@ -583,6 +583,8 @@ p {
   letter-spacing: 0.06em;
 
   margin-bottom: 4px;
+
+  color: var(--main-text-color);
 }
 
 .work-desc {
